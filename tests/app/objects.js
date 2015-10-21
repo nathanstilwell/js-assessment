@@ -1,5 +1,8 @@
+/* I added globals to get my linter to stop complaining. :) */
+/*global describe, it, beforeEach */
+
 if ( typeof window === 'undefined' ) {
-  require('../../app/objects');
+  var objectsAnswers = require('../../app/objects');
   var expect = require('chai').expect;
 }
 
