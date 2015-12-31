@@ -1,5 +1,6 @@
+/*global describe, it */
 if ( typeof window === 'undefined' ) {
-  require('../../app/numbers');
+  var numbersAnswers = require('../../app/numbers');
   var expect = require('chai').expect;
 }
 
