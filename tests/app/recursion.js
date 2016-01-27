@@ -1,5 +1,6 @@
+/*global describe, it */
 if ( typeof window === 'undefined' ) {
-  require('../../app/recursion');
+  const recursionAnswers = require('../../app/recursion');
   var expect = require('chai').expect;
   var _ = require('underscore');
 }
