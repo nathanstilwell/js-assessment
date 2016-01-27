@@ -54,6 +54,12 @@ exports.functionsAnswers = {
   },
 
   curryIt : function(fn) {
-    // skip
+    return function (a) {
+      return function (b) {
+        return function (c) {
+          return fn(a, b, c);
+        };
+      };
+    };
   }
 };
